@@ -1,0 +1,8 @@
+<templateSet group="Java">
+  <template name="annotation_test" value="@MyRealName(value = &quot;$VALUE$&quot;)" toReformat="false" toShortenFQNames="true">
+    <variable name="VALUE" expression="enum(&quot;first&quot;, &quot;second&quot;, &quot;third&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
