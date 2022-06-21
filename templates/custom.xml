@@ -1,5 +1,5 @@
 <templateSet group="custom">
-  <template name="field_test" value="SELECT $ENTITY_ALIAS$.$FIELD$, COUNT($ENTITY_ALIAS_COPY$) FROM $ENTITY$ $ENTITY_ALIAS$ GROUP BY $ENTITY_ALIAS$.$FIELD$&#10;" toReformat="false" toShortenFQNames="true">
+  <template name="field_test" value="SELECT $ENTITY_ALIAS$.$FIELD$, COUNT($ENTITY_ALIAS_COPY$) FROM $ENTITY$ $ENTITY_ALIAS$ GROUP BY $ENTITY_ALIAS$.$FIELD$&#10;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="ENTITY_ALIAS" expression="&quot;a&quot;" defaultValue="" alwaysStopAt="true" />
     <variable name="FIELD" expression="&quot;b&quot;" defaultValue="" alwaysStopAt="true" />
     <variable name="ENTITY_ALIAS_COPY" expression="&quot;c&quot;" defaultValue="" alwaysStopAt="true" />
@@ -36,7 +36,7 @@
       <option name="XML_ATTRIBUTE" value="false" />
     </context>
   </template>
-  <template name="some_for" value="for (let $INDEX$ = 0; $INDEX$ &lt; $ARRAY$; $INDEX$++) {&#10;  $END$&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="some_for" value="for (let $INDEX$ = 0; $INDEX$ &lt; $ARRAY$; $INDEX$++) {&#10;  $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="INDEX" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ARRAY" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
