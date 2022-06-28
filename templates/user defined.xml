@@ -1,15 +1,15 @@
 <templateSet group="user defined">
-  <template name="ln" value="lastName" toReformat="false" toShortenFQNames="true">
+  <template name="ln" value="lastName" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="fn" value="firstName" toReformat="false" toShortenFQNames="true">
+  <template name="fn" value="firstName" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="testTemplate" value="public void test(String $FIRST_NAME$, String $LAST_NAME$) {&#10;&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="testTemplate" value="public void test(String $FIRST_NAME$, String $LAST_NAME$) {&#10;&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="FIRST_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="LAST_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
